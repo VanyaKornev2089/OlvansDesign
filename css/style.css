@@ -1,0 +1,86 @@
+/* settings */
+.container{
+    max-width: 1366px;
+    width: 100%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Kanit', sans-serif;
+}
+/* settings */
+
+/* header */
+
+.header{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: rgb(10, 10, 10)
+}
+.header-content__logo{
+    width: 40px;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-name{
+    display: flex;
+    align-items: center;
+}
+.header-content__name{
+    margin-left: 25px;
+    font-size: 40px;
+    color: white;
+}
+.header-content__span{
+    font-size: 40px;
+    color: rgb(22, 175, 235);
+}
+.header-content-link__item{
+    margin-left: 60px;
+    color: white;
+    font-size: 20px;
+}
+.header-content__button{
+    margin-left: 30px;
+    padding: 10px 30px;
+    background: white;
+    border: 1px solid white;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all .3s;
+}
+.header-content__button:hover{
+    border-radius: 20px;
+    box-shadow:  0px 0px 5px 5px rgba(255, 255, 255, 1);
+}
+.header-content__button--two{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* header */
+
+/* hero */
+
+.hero{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background: rgb(10, 10, 10) url('../img/hero.jpg') no-repeat center;
+    position: relative;
+}
+.hero-title{
+    color: white;
+    font-size: 48px;
+}
